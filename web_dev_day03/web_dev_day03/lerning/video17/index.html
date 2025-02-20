@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>selectors in css</title>
+    <style>
+        /* Element  Selector */
+        div {
+            background-color: rgb(238, 235, 235);
+        }
+
+        /* Class selector*/
+        .red {
+            background-color: pink;
+        }
+
+        /* id selector*/
+        #green {
+            background-color: rgb(194, 171, 171);
+        }
+
+        /*child selectors*/
+        div>p {
+            color: aqua;
+            background-color: pink;
+
+        }
+
+        /*Desendent selector*/
+        div p {
+            color: aliceblue;
+            background-color: rgb(24, 97, 161);
+        }
+
+        /*Universal selector*/
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        /*pesudo Selector*/
+        a:visited{
+            color: blueviolet;
+        }
+        a:active{
+            background-color: rgb(44, 124, 194);
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: rgb(0, 255, 191);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="one">
+        <p>i am first</p>
+
+        <p>i am second</p>
+    </div>
+
+    <div class="red">
+        <h4>Selectors in css </h4>
+        <p>Css selectors allow us to choose specific elements and apply styles to them.</p>
+    </div>
+    <div id="green">i am a good girl</div>
+
+    <div>
+        <a href="https://www.google.com">go to google</a>
+    </div>
+
+</body>
+
+</html>
