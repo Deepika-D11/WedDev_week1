@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS media queries</title>
+    <style>
+        .box {
+            background-color: rgb(180, 180, 216);
+            width: 100vw;
+            height: 100px;
+            padding: 2px;
+            margin: 3px;
+            overflow: auto;
+
+        }
+
+        body {
+            background-color: rgb(235, 218, 218);
+
+        }
+        @media only screen and (max-width:455px){
+            body{
+                color: black;
+                background-color: rgb(206, 236, 32);
+                border : 2px solid black;
+            }
+        }
+
+        @media only screen and (max-width:455px) {
+            .boxces {
+                background-color: blueviolet;
+                flex-direction: column;
+
+            }
+
+
+
+        }
+
+        /* @media only screen
+       @media not |only mediatype and (expressions){
+       css-code;
+       }
+       */
+    </style>
+</head>
+
+<body>
+    <div>
+        hello i am deepika deshmukh
+    </div>
+    <div class="box">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, incidunt praesentium esse, obcaecati illum
+        facere maiores debitis deserunt, officia harum doloremque dolore dignissimos aliquam alias? Aliquam laborum
+        natus eum et, ex repudiandae nulla hic! Pariatur saepe ut iste eos cum.
+    </div>
+    <div class="boxces">
+        <div class="box">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, totam distinctio ratione pariatur
+            ex blanditiis ab. Odio officia rem doloribus ullam provident quasi molestias neque quidem molestiae minus!
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officiis nam, aspernatur repellendus
+            necessitatibus architecto et consectetur? Suscipit praesentium corrupti amet omnis soluta voluptatum sit est
+            deleniti autem, eveniet molestias cumque perspiciatis veniam? Eaque id omnis neque eveniet eligendi sunt
+            vero fugit libero, quisquam minima earum sit adipisci delectus mollitia aperiam cumque numquam deleniti iste
+            possimus? Nisi fugit labore quam.
+        </div>
+        <div class="box">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus magnam consectetur nostrum. Reprehenderit
+            quaerat vero nesciunt ullam eos, esse velit eum recusandae voluptatum distinctio iste beatae. Rem cupiditate
+            ducimus laudantium, ratione eveniet earum dolorem quo, nulla, eaque quas assumenda? Cum!
+        </div>
+        <div class="box">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam dolorum nulla fugiat nisi
+            quia quis fuga saepe dicta eaque. Porro ipsa recusandae est impedit, totam eum perspiciatis quis! Dolorem
+            eos perferendis dolores, esse vitae quis deserunt reprehenderit quaerat veniam corporis quisquam repellat ad
+            praesentium architecto! Quam cum saepe placeat eaque eum similique praesentium ratione possimus a.</div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float&clear in css</title>
+    <style>
+        img {
+            float: right;
+            float: left;
+        }
+
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+
+        }
+
+        .card {
+            border: 2px solid blue;
+        }
+
+        .card:nth-child(3) {
+            background-color: aliceblue;
+           clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="image copy.png" width=" 230px" alt="nature+
+        ">
+        <div class="card">card 1
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, tempora. Eaque exercitationem incidunt minus
+            aliquid aliquam voluptas odit obcaecati non ea ex quo quas at nam, doloremque quasi nisi fuga reprehenderit
+            nesciunt. Laboriosam, omnis?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati eaque repudiandae repellendus placeat
+
+        </div>
+        <div class="card">card 2
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo soluta culpa eum quasi fugiat totam
+            recusandae ullam ex esse fugit dolorum, aperiam reiciendis delectus aliquam sint rem deserunt ipsam magnam
+            quod quis, odit id ab veniam nisi. Quasi dignissimos voluptate aliquam magnam! Velit facilis excepturi
+            placeat officia repudiandae eum saepe quam porro amet neque, minus repellat ratione temporibus. Ipsum ut,
+            quod commodi corrupti ullam id. Vel minima quam eligendi esse voluptate ab, possimus assumenda. Obcaecati
+            accusantium consequatur nemo placeat, illum porro quaerat doloremque nobis exercitationem facere explicabo,
+            omnis harum a?
+        </div>
+        <div class="card">card 3</div>
+        <div class="card">card 4</div>
+    </div>
+</body>
+
+</html>

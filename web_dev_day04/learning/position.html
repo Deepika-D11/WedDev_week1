@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position in css</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 80vw;
+            height: 133px;
+            padding: 0px;
+            margin: 0px;
+            border: 2px solid black;
+            color: black;
+        }
+
+        .box1 {
+            background-color: rgb(223, 213, 233);
+            box-shadow: 2px 3px 3px 4px rgb(194, 159, 165);
+            position: static;
+            top: 0px;
+            
+        
+            margin: 0;
+            padding: 0;
+        }
+
+        .box2 {
+            background-color: pink;
+            box-shadow: 2px 3px 3px 4px rgb(180, 132, 140);
+            top: 40px;
+            left: 34px;
+          
+        }
+
+        .box3 {
+            background-color: rgb(84, 172, 142);
+            box-shadow: 2px 3px 3px 4px rgb(177, 155, 159);
+           /* position: fixed;
+            bottom: 0px;
+            left: 8vw;*/
+
+        }
+
+        .box4 {
+            background-color: blueviolet;
+            box-shadow: 2px 3px 3px 4px rgb(187, 175, 177);
+        }
+
+        .perent {
+            background-color: antiquewhite;
+            box-shadow: 2px 2px 2px 2px pink;
+            color: blanchedalmond;
+            border: 2px solid rgb(53, 210, 221);
+            padding: 43px;
+            margin: 34px;
+            position: absolute;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="perent">
+
+        <div class=" box box1">
+            <h2>Artificial Intelligence</h2>
+            Artificial Intelligence (AI): AI is the simulation of human intelligence in machines, enabling them to
+            perform tasks like problem-solving, decision-making, and learning. It encompasses various subfields,
+            including machine learning, deep learning, and natural language processing. AI can be rule-based (symbolic
+            AI) or data-driven (machine learning-based). Its applications range from automation to robotics and
+            intelligent virtual assistants.
+
+        </div>
+
+        <div class=" box box2">
+            Machine Learning (ML): ML is a subset of AI that enables computers to learn patterns from data and make
+            predictions or decisions without explicit programming. It uses algorithms such as supervised, unsupervised,
+            and reinforcement learning to improve performance over time. ML powers applications like recommendation
+            systems, fraud detection, and predictive analytics. The effectiveness of ML models depends on the quality
+            and quantity of data used for training.
+        </div>
+        <div class=" box box3">
+            Deep Learning (DL): DL is a specialized branch of machine learning that uses artificial neural networks with
+            multiple layers (deep networks) to process complex data. It excels in tasks like image recognition, speech
+            processing, and natural language understanding due to its ability to learn hierarchical features. DL relies
+            on massive datasets and high computational power, often utilizing GPUs for efficient training. Popular
+            architectures include convolutional neural networks (CNNs) and recurrent neural networks (RNNs).
+        </div>
+        <div class=" box box4">Natural Language Processing (NLP): NLP is a field of AI that focuses on enabling machines
+            to understand, interpret, and generate human language. It combines computational linguistics with machine
+            learning to process text and speech for tasks like translation, sentiment analysis, and chatbots. NLP
+            techniques include tokenization, named entity recognition, and syntactic parsing. Applications include
+            virtual assistants, search engines, and automated text summarization.</div>
+
+    </div>
+    </div>
+</body>
+
+</html>

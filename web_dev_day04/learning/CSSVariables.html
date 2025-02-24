@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+    <style>
+        :root {
+            --color: rgb(0, 255, 221);
+            --seccolor: rgb(223, 92, 194);
+
+        }
+
+        * {
+            background-color: antiquewhite;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            background-color: rgb(15, 236, 162);
+        }
+
+        ul {
+            display: flex;
+        }
+
+        ul li:first-child {
+            --color: rgb(1, 2, 15);
+            background-color:var(--color rgb(233, 171, 56));
+            border: 2px solid var(--color);
+
+
+        }
+
+        .container {
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li> machines Intelligence</li>
+            <li> humans Intelligence</li>
+            <li> Robots Intelligence</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem commodi consectetur sapiente? Autem nobis
+        repudiandae earum consectetur ullam, illo consequatur possimus tempora odit, cum sed sit voluptates? Sapiente
+        beatae aliquid repellat inventore, corrupti quidem!
+    </div>
+
+</body>
+
+</html>
